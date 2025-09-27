@@ -42,7 +42,7 @@ public class SandwichShop {
             price = 8.95;
         }
 
-        // if they didn't select no, they get a loaded sandwich
+        // if they didn't select no, they get a "loaded" sandwich
         if (supersizeChar != 'n' && size == 1)
         {
             price += 1;
